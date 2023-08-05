@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ManideepVaddepalli/Social-Proof-FrontendMentor.git/static/css/main.ce25ca9d.css",
+    "main.js": "/ManideepVaddepalli/Social-Proof-FrontendMentor.git/static/js/main.3124e8f2.js",
+    "index.html": "/ManideepVaddepalli/Social-Proof-FrontendMentor.git/index.html",
+    "main.ce25ca9d.css.map": "/ManideepVaddepalli/Social-Proof-FrontendMentor.git/static/css/main.ce25ca9d.css.map",
+    "main.3124e8f2.js.map": "/ManideepVaddepalli/Social-Proof-FrontendMentor.git/static/js/main.3124e8f2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ce25ca9d.css",
+    "static/js/main.3124e8f2.js"
+  ]
+}
