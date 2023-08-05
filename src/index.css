@@ -1,0 +1,158 @@
+html{box-sizing: border-box;
+    font-size: 100%;}
+*,*::after,*::before{box-sizing: inherit;}
+body{
+    font-size: clamp(1rem, 0.796rem + 0.857vw, 1.375rem);
+    font-family: 'League Spartan', sans-serif;
+    margin:0px;
+}
+.content{
+    padding:1.112rem;
+    display: flex;
+    width: 100vw;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+.heading{
+    line-height: 1.65rem;
+    color: hsl(300, 43%, 22%);
+    margin: 1.112rem 0px 0.5556rem 0px;
+    padding: 1.667rem 1.667rem 0px 1.667rem;
+    text-overflow: ellipsis;
+    min-width: none;
+}
+.paragraph{
+    color:hsl(303, 10%, 53%);
+    margin: 0px;
+    margin:0px 0.3889rem 10px 0.3889rem;
+    padding:0.833rem 0.556rem;
+}
+.rating--container{
+    margin: 0.556rem 0px;
+    border-radius: 10px;
+    padding: 0.8334rem 0px;
+    width: 87vw;
+    max-width: 19.445rem;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    background-color: hsl(300, 24%, 96%);
+    align-items: center;
+}
+
+.stars > svg{
+    margin: 0.223rem;
+}
+.rating--container > h4{
+    color: hsl(300, 43%, 22%);
+    margin: 0.2778rem 0px 0px 0px;
+}
+.card--container{
+    margin:1.112rem 0px;
+    max-width:19.445rem;
+    width:87vw;
+    border-radius: 1.112rem;
+    padding:2.223rem;
+    background-color: hsl(300, 43%, 22%);
+}
+.card--user{
+    margin-bottom: 0.556rem;
+    display: flex;
+    align-items: center;
+
+}
+.desktop--top--content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.user--pic{
+    margin-right: 1.3889rem;
+    min-height:2.778rem;
+    min-width:2.778rem;
+    border-radius: 50%;
+    background-size: contain;
+}
+.card--user > h4{
+    color:white;
+}
+.card--user>h4>span{
+    color:hsl(333, 80%, 67%);
+    font-weight: 400;
+}
+.card--container > p{
+    text-align: left;
+    margin:0px;
+    color:white;
+}
+@media (min-width:767px) {
+    .content{
+        padding:3.334rem;
+        display: block;
+    }
+
+    .desktop--top--content{
+        flex-direction: row;
+    }
+    /* line-height: 1.65rem; */
+    .heading{
+        line-height: clamp(1.875rem, 0.267rem + 3.355vw, 2.531rem);
+        margin:0px 0px 1.112rem 0px;
+        padding:0px 0px 0px 0px;
+        padding-right: clamp(0rem, -10.684rem + 22.288vw, 9.375rem);
+        text-align: left;
+    }
+    .paragraph{
+        margin:0px;
+        padding: 0px;
+        text-align: left;
+    }
+    .desktop--top{
+        padding-right: clamp(0rem, -7.123rem + 14.859vw, 6.25rem);
+    }
+    .ratingblock{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .stars{
+        margin-left: 1.112rem;
+    }
+    #rating2{
+        margin-left:clamp(0rem, -5.342rem + 11.144vw, 4.688rem)
+    }
+    #rating3{
+        margin-left:clamp(0rem, -10.684rem + 22.288vw, 9.375rem)
+    }
+    /* 22.778rem */
+    .rating--container{
+        padding: 1.112rem 0px;
+        justify-content: left;
+        max-width: clamp(25.625rem, 8.931rem + 34.824vw, 32.438rem);
+        flex-direction: row;
+    }
+    .rating--container>h4{
+        margin-left: 1.112rem;
+    }
+    .card--container{
+        width:28vw;
+        max-width:21.445rem;
+    }
+    .desktopcards{
+        margin-top: 1.667rem;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+    #card2{
+        margin: 1.112rem 20px 0px 20px;
+    }
+    #card3{
+        margin-top: 2.223rem;
+    }
+    
+}
+
